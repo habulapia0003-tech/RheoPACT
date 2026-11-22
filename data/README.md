@@ -28,12 +28,5 @@ model for prediction and its corresponding D1–D5 scorer for print-derived OQI.
 The two comparisons therefore use distinct OQI scales. The tested settings were
 ranked retrospectively within the candidate grid.
 
-The same-setting comparison for pumpkin (M04) uses the reported later
-rheological measurements. The state-space projection and extrusion screen use
-the initial measurements. The link between the later measurements, the
-instrument export and the adjusted-print batch is unverified.
-[Input records and sensitivity results](figure6/Figure6_summary.json) give both
-sets of measurements and the resulting errors.
-
 See the [figure index](../docs/FIGURE_CODE_MAP.md) for panel-level sources and
 the [reproduction guide](../docs/VALIDATION.md) for commands.
