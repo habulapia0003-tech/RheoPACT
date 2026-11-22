@@ -1,6 +1,7 @@
 # Data supplied separately
 
-The prediction and Figure 6 commands in README.md use the files in the code archive.
+The [reproduction guide](VALIDATION.md) identifies the inputs for each analysis.
+The archives below provide the accompanying data and solver files.
 
 | Archive | Contents | Use |
 | --- | --- | --- |
@@ -11,7 +12,9 @@ The prediction and Figure 6 commands in README.md use the files in the code arch
 | Point_Clouds_and_CAD.zip | Representative PLY scans and CAD/STL models | Pass the scan and design paths to scripts/pointcloud/pointcloud_pipeline.py |
 | COMSOL_Models.zip | Giesekus, generalized-Newtonian and nozzle simulation projects | Model names and variants are listed in COMSOL_MODEL_INDEX.csv. COMSOL 6.3 and a valid license are required |
 
-The complete point-cloud batch and the project files used by older figure-assembly scripts are referenced in data_manifests/. They are separate from the compact inference archive. The archive names above identify files in the manuscript data package. Use the access details provided with the manuscript to obtain external archives.
+The [file indexes](../data_manifests/README.md) list the point-cloud batch
+and COMSOL models. The manuscript gives access details for the accompanying
+archives.
 
 The supplementary geometry builder expects phenotype scores in external_data/figure2/digital_phenotype_scores.csv and the printing analysis table in external_data/figure2/printing_analysis_590.csv. It also uses the geometry-analysis tree described in the script.
 

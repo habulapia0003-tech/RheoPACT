@@ -1,3 +1,12 @@
 # Data and model file indexes
 
-pointcloud_590_manifest.csv records specimen IDs, source scan filenames, match status, point counts and digests. The full scanning archive is separate. comsol_required_model_manifest.csv identifies model variants in the simulation workflow. provided_asset_summary.csv records the distribution of printing data, state tables and models. See docs/EXTERNAL_DATA.md for the names of the accompanying archives.
+The [scan index](pointcloud_590_manifest.csv) lists specimen identifiers,
+scan filenames, match status, point counts and file digests. Of the 590
+entries, 510 are direct matches, 5 have a direct identifier that conflicts
+with a score-based label, 73 have unverified score-based links and 2 lack
+an independently identifiable scan.
+
+The [COMSOL model index](comsol_required_model_manifest.csv) identifies the
+solver files and model variants. The [data and model inventory](provided_asset_summary.csv)
+lists the printing data, state tables and models. See
+[accompanying data and models](../docs/EXTERNAL_DATA.md) for archive details.
