@@ -1,0 +1,47 @@
+{
+  "forward_model": "Models\\Figure5_FORWARD_rheology_process_to_accuracy.joblib",
+  "recommender_model": "Models\\Figure5_RECOMMENDER_rheology_to_process_topk.joblib",
+  "candidate_count": 243,
+  "quality_validation": {
+    "grouped_CV_R2": 0.8103420072184087,
+    "independent_candidate_test_R2": 0.697070435927577,
+    "test_RMSE": 14.633883901385394,
+    "test_MAE": 8.831106657660904
+  },
+  "example_rheology_id": "RHEO_M02_14_80_25",
+  "example_top1": {
+    "Rheology_ID": "RHEO_M02_14_80_25",
+    "Print_temp_C": 25.0,
+    "Model_height_mm": 5.0,
+    "Print_speed_mm_s": 10.0,
+    "Nozzle_mm": 1.2,
+    "Nozzle_height_mm": 2.5,
+    "Gp_mean_Pa": 5793.0,
+    "Gpp_mean_Pa": 664.3,
+    "eta_10_Pa_s": 110.0,
+    "eta_100_Pa_s": 3.18,
+    "Selected_tau0": 858.34954988555,
+    "Selected_K": 9.065859201589158e-12,
+    "Selected_n": 0.01,
+    "P_extrudable": 0.7456165197255793,
+    "Predicted_integrated_outcome": 78.00620427898319,
+    "Feasibility_pass": true,
+    "Recommendation_rank": 1,
+    "All_inputs_within_marginal_training_ranges": true,
+    "Support_message": "All seven rheological inputs are within their marginal training ranges."
+  },
+  "source_hashes": {
+    "master_590": "A1E1F01436BF9A2E58EE473DEB7CE7206611F1F481479CE2DCEB5016C0099532",
+    "frozen_quality_model": "9311F806EE95AB0712B8EBAB0AF0394A6529E5251D3016D36DE2A519B994451C",
+    "feasibility_model": "99259E2AAA9843F2B281A337F81D0DA0B5A4B9E400E9E2A488F22B37F57DFB0D"
+  },
+  "ranking_revision": {
+    "date": "2026-10-30",
+    "estimators_refitted": false,
+    "feasibility_threshold": 0.5,
+    "primary_rank": "Predicted_integrated_outcome descending among feasibility-passing candidates",
+    "probability_role": "separate feasibility screen and reported auxiliary output",
+    "legacy_recommender_sha256": "5F62D99A7C3253DBD0B90C079E3C658545257B9D76373A05D98FE9094EB57B01",
+    "current_recommender_sha256": "CCE39042755F2902C920EC801D5E7F2F8765D24AE5F0FED12837883BAF7904AB"
+  }
+}

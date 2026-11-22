@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS",
+  "forward_bundle_loaded": true,
+  "recommender_bundle_loaded": true,
+  "candidate_grid_rows": 243,
+  "candidate_grid_unique_rows": 243,
+  "quality_prediction_max_abs_delta_vs_frozen_test_predictions": 7.105427357601002e-15,
+  "cli_example_max_abs_delta_vs_direct_inference": 2.220446049250313e-16,
+  "cli_example_feasibility_flags_match": true,
+  "forward_feature_count": 12,
+  "required_rheology_inputs": [
+    "Gp_mean_Pa",
+    "Gpp_mean_Pa",
+    "eta_10_Pa_s",
+    "eta_100_Pa_s",
+    "Selected_tau0",
+    "Selected_K",
+    "Selected_n"
+  ],
+  "required_process_inputs": [
+    "Print_temp_C",
+    "Model_height_mm",
+    "Print_speed_mm_s",
+    "Nozzle_mm",
+    "Nozzle_height_mm"
+  ],
+  "scope_warning_present": true,
+  "recommendation_scope": "Enumeration over observed discrete process levels only"
+}

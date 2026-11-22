@@ -1,0 +1,4 @@
+-r requirements.txt
+open3d>=0.18,<0.20
+trimesh>=4.5,<5
+

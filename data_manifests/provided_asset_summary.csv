@@ -1,0 +1,6 @@
+asset,location,contents
+Complete printing and phenotype data,Supplementary_Data_1.zip,Printing attempts and visual-assessment records
+Representative scans and CAD,Point_Clouds_and_CAD.zip,PLY scans and reference STL files
+Complete reduced-order state table,Supplementary_Data_3.zip,131072 computational states and their projection
+COMSOL projects,COMSOL_Models.zip,Simulation model sources and model index
+Figure 6 scoring assets,Code_and_Models.zip,Two scoring models and the photo plate

@@ -1,0 +1,68 @@
+{
+  "same_setting_Figure5_OQI_comparison": {
+    "n": 6,
+    "MAE": 4.908359864603617,
+    "RMSE": 5.730541850934782,
+    "mean_signed_error": -4.908359864603617,
+    "max_absolute_error": 7.836498641098217,
+    "minimum_tested_rank": 8,
+    "maximum_tested_rank": 80,
+    "result_role": "current_Figure6e_result",
+    "report_in_main_text": true,
+    "input_variant": "author_reported_later_M04_rheology"
+  },
+  "paired_materials": 6,
+  "recorded_prints": 12,
+  "mean_OQI_gain": 34.472766666666715,
+  "OQI_gain_range": [
+    33.11700000000008,
+    35.95980000000003
+  ],
+  "mean_D1_D5_gains": [
+    32.5,
+    41.5,
+    27.666666666666668,
+    37.0,
+    41.333333333333336
+  ],
+  "positive_D1_D5_comparisons": 30,
+  "feasibility_passes": 6,
+  "feasibility_threshold": 0.5,
+  "feasibility_probability_range": [
+    0.5984528883079617,
+    1.0
+  ],
+  "same_setting_Figure5_OQI_comparison_original_input": {
+    "n": 6,
+    "MAE": 9.39881025697988,
+    "RMSE": 14.97340292182171,
+    "mean_signed_error": -9.39881025697988,
+    "max_absolute_error": 34.779200995355794,
+    "minimum_tested_rank": 11,
+    "maximum_tested_rank": 80,
+    "result_role": "archived_original_input_comparison",
+    "report_in_main_text": false,
+    "input_variant": "original_M04_rheology",
+    "description": "Same-setting comparison using the initial M04 rheology values. Fig. 6e and Supplementary Table 16 use the later reported M04 values."
+  },
+  "same_setting_M04_input_provenance": "Fig. 6e and Supplementary Table 16 use rheology values reported as a later measurement for pumpkin (M04). The other five materials use their recorded inputs. The resulting MAE is 4.91 and RMSE is 5.73 points. The rheological projection and extrusion screen use the initial inputs. Using the initial M04 values gives MAE 9.40 and RMSE 14.97 points. At the precision supplied, the later values match a sensitivity-analysis input. Their link to the instrument export and the adjusted-print batch remains unverified.",
+  "same_setting_M04_original_rheology": {
+    "Gp_mean_Pa": 8501.140531134042,
+    "Gpp_mean_Pa": 1307.9003348583349,
+    "eta_10_Pa_s": 109.87556135205692,
+    "eta_100_Pa_s": 20.317668548061743,
+    "Selected_tau0": 15.087725156414075,
+    "Selected_K": 582.3118189731925,
+    "Selected_n": 0.2697405994723297
+  },
+  "same_setting_M04_rheology": {
+    "Gp_mean_Pa": 7071.19,
+    "Gpp_mean_Pa": 1031.44,
+    "eta_10_Pa_s": 76.38,
+    "eta_100_Pa_s": 13.24,
+    "Selected_tau0": 14.85,
+    "Selected_K": 428.35,
+    "Selected_n": 0.24
+  },
+  "score_matrix_lineage_status": "The study team identifies the workbook in Supplementary Data 1 as the record of on-site scoring with direct Excel entry. The relationship between this workbook and the separate analysis matrix remains undocumented (Supplementary Table 6). The analytical models can be reproduced from the supplied matrix."
+}

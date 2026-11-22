@@ -1,0 +1,13 @@
+{
+  "status": "RANKING_RULE_REVISED",
+  "estimators_refitted": false,
+  "quality_model_unchanged": true,
+  "feasibility_model_unchanged": true,
+  "old_rule": "P_extrudable * Predicted_integrated_outcome",
+  "new_rule": "Candidates with P_extrudable >= 0.50 pass the feasibility screen; screen-passing candidates are ranked by Predicted_integrated_outcome descending, with P_extrudable used only as the final tie-breaker.",
+  "threshold": 0.5,
+  "legacy_recommender": "Figure5_RECOMMENDER_rheology_to_process_topk_LEGACY_PRODUCT_RULE.joblib",
+  "legacy_sha256": "5F62D99A7C3253DBD0B90C079E3C658545257B9D76373A05D98FE9094EB57B01",
+  "current_recommender": "models/Figure5_RECOMMENDER_rheology_to_process_topk.joblib",
+  "current_sha256": "CCE39042755F2902C920EC801D5E7F2F8765D24AE5F0FED12837883BAF7904AB"
+}

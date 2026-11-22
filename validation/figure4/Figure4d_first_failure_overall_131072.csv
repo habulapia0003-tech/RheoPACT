@@ -1,0 +1,7 @@
+﻿first_failure_outcome,count,percent
+Non-extrudable,53667,40.944671630859375
+Filament failure,54888,41.876220703125
+Landing failure,3417,2.606964111328125
+Road failure,15289,11.664581298828125
+Structure failure,1243,0.948333740234375
+All five pass,2568,1.959228515625

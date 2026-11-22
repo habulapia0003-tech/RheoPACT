@@ -1,0 +1,4 @@
+-r requirements.txt
+# Requires a separately licensed COMSOL Multiphysics installation and server.
+mph>=1.2
+

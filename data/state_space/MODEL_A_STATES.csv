@@ -1,0 +1,4 @@
+"Case_ID","State_role","Rheology_ID","tau_y_Pa","K_Pa_s_n","n","Q_assumed_prescribed_m3_s"
+"A_LOW","Low support","USER_STATE_LOW","30","110","0.35","1.933E-08"
+"A_OPT","Optimal state","USER_STATE_OPT","100","135","0.3","1.933E-08"
+"A_HIGH","High resistance","USER_STATE_HIGH","180","140","0.25","1.933E-08"

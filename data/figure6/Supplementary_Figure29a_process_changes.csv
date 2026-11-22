@@ -1,0 +1,7 @@
+Material,Print_temp_C,Model_height_mm,Print_speed_mm_s,Nozzle_mm,Nozzle_height_mm
+Beef,20,0,-20,0.36,1.0
+Pork,10,0,-20,-0.039999999999999925,0.0
+Carrot,10,0,-20,0.36,2.0
+Pumpkin,20,0,-15,0.36,2.0
+Purple sweet potato,20,0,-20,0.36,0.0
+Milk gel,35,0,-15,0.36,2.0

@@ -1,0 +1,38 @@
+{
+  "figure3": {
+    "population": "518 successful extrusion samples; the 72 non-extrudable attempts are excluded from perception regression",
+    "split": "419 development / 99 fixed test",
+    "group_field": "Experiment_group",
+    "features": [
+      "D1_global_geometry",
+      "D2_structural_completeness",
+      "D3_surface_deviation",
+      "D4_polarity_tolerance",
+      "D5_spatial_heterogeneity"
+    ],
+    "target": "Sensory_mean_new",
+    "frozen_estimator": "HistGradientBoostingRegressor",
+    "random_state": 20260902,
+    "fixed_test_metrics": {
+      "R2": 0.8174786706591628,
+      "RMSE": 8.7744,
+      "MAE": 5.0623
+    }
+  },
+  "figure5": {
+    "population": "all 590 printing attempts, including failed attempts with OQI=0 in the frozen integrated outcome",
+    "split": "469 development / 121 candidate-process test",
+    "group_field": "Candidate_group_ID",
+    "quality_estimator": "ExtraTreesRegressor",
+    "quality_n_estimators": 400,
+    "quality_random_state": 20260902,
+    "grouped_cv_R2": 0.8103,
+    "independent_candidate_test_R2": 0.6971,
+    "candidate_grid_size": 243,
+    "feasibility_threshold": 0.5,
+    "ranking": "filter candidates with P(extrudable) >= 0.50, then sort by predicted OQI descending; do not multiply the two quantities",
+    "not_a_training_label": "OQI below 60 is not the frozen feasibility-classifier label",
+    "group_definition": "Rheology_ID and all five process settings",
+    "complete_state_holdout_group_field": "Rheology_ID"
+  }
+}
