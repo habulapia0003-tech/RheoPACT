@@ -5,21 +5,6 @@ Extra Trees scorer converted measured D1–D5 to OQI for the 12 prints in
 the paired comparison (Fig. 6d and Supplementary Fig. 16a). The mean OQI
 gain was 34.47 points.
 
-Figure 6e compares two scores at each of the six adjusted settings. The
-Fig. 5 Extra Trees regressor predicts OQI from the process and rheology
-inputs. The Fig. 5 HistGradientBoosting evaluator converts measured D1–D5
-to OQI on the same scale. Signed error is predicted OQI minus the
-print-derived score. MAE was 4.91 and RMSE was 5.73 points. The listed
-candidate ranks are retrospective.
-
-Figure 6b and the extrusion screen use the initial rheology records.
-Figure 6e uses values reported as a later measurement for pumpkin (M04).
-Their link to the instrument export and the adjusted-print batch remains
-unverified. At the precision supplied, the later values match a set
-previously evaluated in a sensitivity analysis. Using the initial M04
-values gives MAE 9.40 and RMSE 14.97 points. Both comparisons are recorded
-in `Figure6_summary.json`. Specimen-level linkage of the scans, D1–D5
-scores and photographs remains unverified.
 
 | Panel or table | File in Source Data |
 | --- | --- |
